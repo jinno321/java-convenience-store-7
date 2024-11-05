@@ -1,1 +1,28 @@
-# java-convenience-store-precourse
+# Java Convenience Store Precourse
+
+## 1. Model
+
+### PriceCalculator (가격 계산기)
+- [ ] 상품과 개수가 담긴 리스트를 받아 모든 가격을 더한 값을 리턴하는 메서드
+- [ ] 프로모션 및 멤버십 할인 정책을 적용하는 메서드
+
+### Storage (창고 - 재고 관리)
+- [ ] 결제 가능 여부 확인 - 불가능시 에러 처리
+- [ ] 상품 구매 시, 재고 차감
+- [ ] 최신 재고 유지
+
+### PromotionManager (프로모션 관리)
+- [ ] 프로모션 관리 기능 구현
+
+### Promotion (enum) (프로모션 종류)
+- [ ] 1+1 프로모션
+- [ ] 2+1 프로모션
+
+### MembershipManager (멤버십 관리)
+- [ ] 멤버십 관리 기능 구현
+
+### Receipt (영수증)
+- [ ] 총 구매액 관리
+- [ ] 행사 할인 금액 기록
+- [ ] 멤버십 할인 금액 기록
+- [ ] 최종 결제 금액 기록
